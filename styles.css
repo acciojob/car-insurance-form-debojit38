@@ -1,2 +1,21 @@
 
-/* Your CSS Code here. */
+#bu{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+}
+#button{
+	color:white;
+	font-size:15px;
+	background-color:grey;
+	border:1px solid white;
+	border-radius:5px
+}
+#button:hover{
+	color:black;
+	background-color:yellow;
+	font-weight:30px;
+	text-style:focus-within
+	font-size:26px;
+	border-radius:50px;
+}
